@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dapur Kilat — Warung Jalanan</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #1d120a; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; font-family: 'Trebuchet MS', 'Segoe UI', sans-serif; }
+  #wrap { width: min(1280px, 100vw); }
+  canvas { display: block; width: 100%; height: auto; background: #c98f4e; }
+  #help { color: #d9c9a8; text-align: center; font-size: 13px; padding: 8px 12px; }
+  #help b { color: #ffd94d; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="720"></canvas>
+  <div id="help"><b>WASD / panah</b> jalan &nbsp;•&nbsp; <b>E / klik</b> pakai stasiun &nbsp;•&nbsp; <b>Q</b> buang &nbsp;•&nbsp; <b>P</b> jeda &nbsp;•&nbsp; <b>Enter</b> mulai</div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
